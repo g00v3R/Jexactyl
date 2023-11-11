@@ -120,7 +120,7 @@ class ProcessScheduleServiceTest extends IntegrationTestCase
      * Tests that a task's processing state is reset correctly if using "dispatchNow" and there is
      * an exception encountered while running it.
      *
-     * @see https://github.com/pterodactyl/panel/issues/2550
+     * @see https://github.com/jexactyl/panel/issues/2550
      */
     public function testTaskDispatchedNowIsResetProperlyIfErrorIsEncountered()
     {

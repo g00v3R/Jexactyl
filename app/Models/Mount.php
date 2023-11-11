@@ -81,7 +81,7 @@ class Mount extends Model
      */
     public static $invalidSourcePaths = [
         '/etc/pterodactyl',
-        '/var/lib/pterodactyl/volumes',
+        '/var/lib/Jexactyl/volumes',
         '/srv/daemon-data',
     ];
 
